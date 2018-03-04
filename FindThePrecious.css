@@ -1,0 +1,187 @@
+@font-face {
+  font-family: 'fortexte';
+  src: url('write/partybusiness.ttf');
+}
+
+@font-face {
+  font-family: 'fortittle';
+  src: url('write1/anirm___.ttf');
+}
+
+@font-face {
+  font-family: 'symbol';
+  src: url('tengwar/tnganb.ttf');
+}
+
+ul, h1, h2, h3 {
+  font-family: 'fortittle';
+}
+
+p {
+  font-family: 'fortexte';
+}
+
+h2::after, h2::before {
+  content : 'ij';;
+  font-family: 'symbol';;
+  color: orange;;
+}
+
+.symbole {
+  font-family: 'symbol';
+  color: orange;
+}
+
+#dead {
+  text-align: center;
+}
+
+/* navbar*/
+
+.navbar-default {
+  background-color: orange;
+  border-color: orange;
+}
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+
+.line {
+  transform: translate(0px, 15px);
+  color: white;
+}
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+#Fellow {
+  text-decoration: underline white;
+}
+
+#contact {
+  border-right: none;
+}
+/* Thumbnail for the 3 images */
+
+.thumbnail {
+  border: 1px solid black;
+  background-color: black;
+  width: 300px;
+  position: relative;
+  margin: auto;
+}
+
+/* Gandalf and Aragorn(=gandalf for the coding) */
+.gandalf {
+  position: relative;
+  opacity: 0.6;
+}
+
+.gandalf:hover {
+  opacity: 1;
+}
+
+.gandalf1 {
+  font-family: 'fortexte', verdana;
+  border-radius: 10px;
+  background-color: rgba(225, 225, 255, 1);
+  width: 200px;
+  font-size: 20px;
+  color: black;
+	text-align: center;
+  position: absolute;
+  top: 15%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+.gandalf2 {
+  font-family: 'fortexte', verdana;
+  color: rgb(245,181,14);
+  font-size: 20px;
+  position: absolute;
+  bottom: 15%;
+  left:50%;
+  transform: translate(-50%, -50%);
+} 
+
+.gandalf:hover .gandalf1 { 
+  visibility: hidden;
+}
+
+.gandalf:hover .gandalf2 { 
+  text-align: center;
+  font-size: 50px;
+  position: absolute;
+}
+
+/* Gimli */
+.gimli {
+  position: relative;
+  opacity: 0.8;
+}
+
+.gimli:hover {
+  opacity: 1;
+}
+
+.gimli1 {
+  font-family: 'fortexte', verdana;
+  width: 200px;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  position: absolute;
+  top: 15%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+.gimli2 {
+  font-family: 'fortexte', verdana;
+  color: rgb(245,181,14);
+  font-size: 20px;
+  position: absolute;
+  bottom: 15%;
+  left:50%;
+  transform: translate(-50%, -50%);
+} 
+
+.gimli:hover .gimli1 { 
+  visibility: hidden;
+}
+
+.gimli:hover .gimli2 { 
+  text-align: center;
+  font-size: 50px;
+  position: absolute;
+}
+
+.mille {
+  color: rgb(245,181,14);
+  font-size: 45px; 
+}
+
+.caption {
+  font-size: 20px;
+  text-align: justify;
+}
+
+.list-inline{
+  text-align: center;
+}
+.list-inline li a{
+  color: grey;
+}
+
+.list-inline li a:hover{
+  text-decoration: underline;
+  color: orange;
+}
+
+
+#best_hunters h3 {
+  color: orange;
+  font-size: 30px;
+}
